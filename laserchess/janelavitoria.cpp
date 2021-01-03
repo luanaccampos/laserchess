@@ -19,11 +19,11 @@ janelaVitoria::janelaVitoria(bool vencedor, QWidget *parent) : QMainWindow(paren
     if(vencedor) // azul
     {
         l->setText("Vitória do Azul!");
-        l->setGeometry(150, 50, 200, 20);
+        l->setGeometry(0, 50, 500, 20);
     }
     else
     {
-        l->setGeometry(100, 50, 300, 20);
+        l->setGeometry(0, 50, 500, 20);
         l->setText("Vitória do Vermelho!");
     }
 
