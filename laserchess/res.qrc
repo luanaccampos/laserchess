@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="imagens">
+        <file alias="tabuleiro">imagens/tabuleiro.png</file>
+        <file alias="africa">imagens/africa.svg</file>
+        <file alias="anubisAzul">imagens/anubisAzul.png</file>
+        <file alias="anubisVermelho">imagens/anubisVermelho.png</file>
+        <file alias="azul">imagens/azul.png</file>
+        <file alias="dead">imagens/dead.png</file>
+        <file alias="escaravelhoAzul">imagens/escaravelhoAzul.png</file>
+        <file alias="escaravelhoVermelho">imagens/escaravelhoVermelho.png</file>
+        <file alias="faraoAzul">imagens/faraoAzul.png</file>
+        <file alias="faraoVermelho">imagens/faraoVermelho.png</file>
+        <file alias="laserchess">imagens/laserchess.png</file>
+        <file alias="piramideAzul">imagens/piramideAzul.png</file>
+        <file alias="piramideVermelha">imagens/piramideVermelha.png</file>
+        <file alias="selecao">imagens/selecao.png</file>
+        <file alias="sphinxAzul">imagens/sphinxAzul.png</file>
+        <file alias="sphinxVermelho">imagens/sphinxVermelho.png</file>
+        <file alias="vermelho">imagens/vermelho.png</file>
+    </qresource>
+</RCC>
