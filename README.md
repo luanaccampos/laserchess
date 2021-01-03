@@ -1,7 +1,7 @@
 
 # Laser Chess
 
-Um jogo em C++ utilizando Qt5
+Um jogo em C++ utilizando Qt
 
 # Peças
 
