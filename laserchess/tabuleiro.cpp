@@ -105,7 +105,7 @@ void tabuleiro::cairo()
 {
     for(int i = 0; i < 8; i++)
         for(int j = 0; j < 10; j++)
-            tab[i][j] = new Vazio(j*110+55, i*110+65, this);
+            tab[i][j] = new Vazio(i, j, this);
 
     tab[0][0] = new SphinxVermelha(0, 0, 270, this);
     tab[0][4] = new PiramideVermelha(0, 4, 180, this);
