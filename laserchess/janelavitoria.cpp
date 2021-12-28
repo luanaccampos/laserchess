@@ -11,9 +11,9 @@ janelaVitoria::janelaVitoria(bool vencedor, QWidget *parent) : QMainWindow(paren
     QFont f("Consolas", 18);
     l->setFont(f);
 
-    QDesktopWidget *desktop = QApplication::desktop();
-    int x = (desktop->width() - 500)/2;
-    int y = (desktop->height() - 300)/2;
+    QSize size = QGuiApplication::primaryScreen()->size();
+    int x = (size.width() - 500)/2;
+    int y = (size.height() - 300)/2;
     move(x, y);
 
     if(vencedor) // azul

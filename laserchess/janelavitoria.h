@@ -4,7 +4,6 @@
 #include <QMainWindow>
 #include <QLabel>
 #include <QPushButton>
-#include <QDesktopWidget>
 #include <QApplication>
 #include <QCloseEvent>
 #include "janela.h"

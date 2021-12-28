@@ -11,7 +11,6 @@
 #include <QPushButton>
 #include <vector>
 #include <string>
-#include <QDesktopWidget>
 #include <QApplication>
 #include "peca.h"
 #include "piramideazul.h"

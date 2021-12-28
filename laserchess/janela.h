@@ -8,7 +8,6 @@
 #include <QPaintEvent>
 #include <QTimer>
 #include <QDebug>
-#include <QDesktopWidget>
 #include <QApplication>
 #include "tabuleiro.h"
 
