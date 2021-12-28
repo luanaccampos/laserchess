@@ -7,9 +7,9 @@ janela::janela(QWidget *parent) : QMainWindow(parent)
     setWindowTitle("LASER CHESS");
     setWindowIcon(QIcon(":/imagens/africa"));
 
-    QDesktopWidget *desktop = QApplication::desktop();
-    int x = (desktop->width() - 700)/2;
-    int y = (desktop->height() - 500)/2;
+    QSize size = QGuiApplication::primaryScreen()->size();
+    int x = (size.width() - 700)/2;
+    int y = (size.height() - 500)/2;
     move(x, y);
 
     QPushButton *botao = new QPushButton(this);

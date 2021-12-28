@@ -9,9 +9,9 @@ tabuleiro::tabuleiro(string jogo, QWidget *parent) : QMainWindow(parent)
     setWindowTitle("LASER CHESS");
     setWindowIcon(QIcon(":/imagens/africa"));
 
-    QDesktopWidget *desktop = QApplication::desktop();
-    int x = (desktop->width() - 1200)/2;
-    int y = (desktop->height() - 1000)/2;
+    QSize size = QGuiApplication::primaryScreen()->size();
+    int x = (size.width() - 1200)/2;
+    int y = (size.height() - 1000)/2;
     move(x, y);
 
 
