@@ -18,14 +18,14 @@ void SphinxVermelha::rotate(int x)
 {
     if(grau == 0)
     {
-        if(x == Qt::Key_Right)
+        if(x == Qt::Key_Left)
             grau += 270;
         else
             throw 1;
     }
     else
     {
-        if(x == Qt::Key_Left)
+        if(x == Qt::Key_Right)
             grau += 90;
         else
             throw 1;
