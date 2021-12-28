@@ -166,7 +166,7 @@ bool tabuleiro::isvalid(int x, int y, string tipo)
     }
 
     if(tipo[0] == 'S') // É um escaravelho
-        if((turn and (tab[x][y]->tipo() == "PA" or tab[x][y]->tipo() == "AA")) or (!turn and (tab[x][y]->tipo() == "AV" or tab[x][y]->tipo() == "PV")))
+        if(tab[x][y]->tipo() == "PA" or tab[x][y]->tipo() == "AA" or tab[x][y]->tipo() == "AV" or tab[x][y]->tipo() == "PV")
                 return true;
 
     return false;
